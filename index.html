@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arena do Eclipse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=Outfit:wght@380;560&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="view" tabindex="0" aria-label="Arena 3D"></canvas>
+      <div class="vignette"></div>
+      <div id="hud">
+        <header>
+          <p class="eyebrow">terceira pessoa</p>
+          <h1>Arena do Eclipse</h1>
+          <p id="status">Bruto e Espreitador guardam o círculo</p>
+        </header>
+        <footer>
+          <div class="hp-block">
+            <div class="hp-label"><span>Vida</span><strong id="hp-text">100 / 100</strong></div>
+            <div class="bar" aria-label="Barra de vida"><div id="hp-fill"></div></div>
+          </div>
+          <div class="chips">
+            <div class="chip" id="attack-chip"><span>Ataque</span><b></b></div>
+            <div class="chip" id="dodge-chip"><span>Esquiva</span><b></b></div>
+          </div>
+          <p class="help">WASD mover · Q/E ou botão direito giram a câmera · J ou clique atacam · Espaço esquiva · R reinicia</p>
+        </footer>
+      </div>
+      <div id="floats"></div>
+      <div id="overlay">
+        <div class="card">
+          <p class="eyebrow">um duelo sob o eclipse</p>
+          <h2 id="overlay-title">Arena do Eclipse</h2>
+          <p id="overlay-copy">Dois caçadores patrulham o círculo de pedra. Persiga, ataque e esquive. Se a sua luz apagar, recomece.</p>
+          <button id="overlay-action" type="button">Entrar na arena</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
