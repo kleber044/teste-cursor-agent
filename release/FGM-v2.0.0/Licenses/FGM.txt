@@ -1,0 +1,10 @@
+FGM (FiveM Graphics Mod) 2.0.0
+
+Copyright (c) 2026 FGM. Todos os direitos reservados.
+
+O comprador pode instalar e usar este pacote no próprio computador.
+A redistribuição dos shaders, LUTs, texturas, presets e do instalador
+não é permitida sem autorização por escrito.
+
+Este produto não inclui arquivos da Rockstar Games, do FiveM ou binários
+do ReShade.

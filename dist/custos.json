@@ -1,0 +1,18 @@
+{
+  "ultra": {
+    "passes": 18,
+    "samples": 100
+  },
+  "high": {
+    "passes": 18,
+    "samples": 92
+  },
+  "medium": {
+    "passes": 18,
+    "samples": 84
+  },
+  "low": {
+    "passes": 14,
+    "samples": 72
+  }
+}
