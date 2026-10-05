@@ -1,0 +1,7 @@
+pngjs 7.0.0
+Copyright (c) 2010-2024 Luke Page and contributors
+https://github.com/pngjs/pngjs
+Licença MIT
+
+Usado apenas para gerar PNG durante o build e os testes.
+Não é instalado no computador do jogador e não faz parte do pacote de jogo.
